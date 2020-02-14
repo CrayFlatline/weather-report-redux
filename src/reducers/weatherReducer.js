@@ -7,7 +7,7 @@ export default (state = {}, action) => {
         case 'CITY_FETCH_SUCCEEDED':
             return {
                 status: 'success',
-                user: action.payload.user
+                cityData: action.payload
             };
         default:
             return state

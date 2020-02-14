@@ -1,7 +1,7 @@
-export default function fetchUser() {
+export default function fetchWeather() {
     return {
-        user: 'User',
+        city: 'Kyiv',
         id: 23,
-        name: 'Somebody'
+        weather: 'cloudy'
     }
 }

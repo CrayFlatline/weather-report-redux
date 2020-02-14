@@ -16,3 +16,12 @@ export const changeCitySuccessAction = () => {
     }
 };
 
+export const changeCityFailedAction = () => {
+    return {
+        type: 'CITY_FETCH_FAILED',
+        payload: {
+            message: 'Some message'
+        }
+    }
+};
+
