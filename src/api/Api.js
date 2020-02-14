@@ -1,7 +1,8 @@
-export default function fetchWeather() {
+export default function fetchWeather(id) {
+    console.log(id);
     return {
         city: 'Kyiv',
-        id: 23,
+        id: id,
         weather: 'cloudy'
     }
 }

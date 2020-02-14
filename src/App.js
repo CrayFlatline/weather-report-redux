@@ -9,7 +9,7 @@ const mapStateToProps = state => ({
 });
 
 const mapDispatchToProps = dispatch => ({
-    changeCity: () => dispatch(changeCityAction())
+    changeCity: (id) => dispatch(changeCityAction(id))
 });
 
 class App extends Component {

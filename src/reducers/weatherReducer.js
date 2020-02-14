@@ -9,6 +9,11 @@ export default (state = {}, action) => {
                 status: 'success',
                 cityData: action.payload
             };
+        case 'CITY_FETCH_FAILED':
+            return {
+                status: 'success',
+                cityData: action.payload
+            };
         default:
             return state
     }
