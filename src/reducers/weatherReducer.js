@@ -1,10 +1,10 @@
-export default (state = {}, action) => {
+export default (state = {status: '', weather: {}, cityId: 0}, action) => {
     switch (action.type) {
-        case 'CITY_CHANGE':
-            return {
-                state
-//                cityData: action.payload.cityId
-            };
+//         case 'CITY_CHANGE':
+//             return {
+//                 ...state
+// //                cityData: action.payload.cityId
+//             };
         case 'CITY_FETCH_SUCCEEDED':
             return {
                 ...state,
